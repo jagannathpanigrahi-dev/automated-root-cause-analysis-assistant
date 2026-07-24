@@ -1,0 +1,73 @@
+# Automation Log Analyzer using Machine Learning
+
+## Overview
+This project automatically analyzes application log files and predicts the root cause of errors using Machine Learning.
+
+## Features
+- Parse log files
+- Analyze log levels (INFO, WARNING, ERROR, CRITICAL)
+- Predict root cause using a trained ML model
+- Generate analysis reports
+- Fast and easy to use
+
+## Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+- Joblib
+
+## Project Structure
+
+```
+AUTOMATION_LOG_PROJECT/
+│
+├── dataset/
+│   └── training.csv
+├── logs/
+│   └── sample.log
+├── analyzer.py
+├── parser.py
+├── predict.py
+├── root_cause.py
+├── train_model.py
+├── main.py
+├── model.pkl
+├── vectorizer.pkl
+└── README.md
+```
+
+## Installation
+
+```bash
+pip install pandas scikit-learn joblib
+```
+
+## Train the Model
+
+```bash
+python train_model.py
+```
+
+## Run the Project
+
+```bash
+python main.py
+```
+
+## Example Output
+
+```
+Predicted Root Cause : Database Failure
+Confidence : 92%
+```
+
+## Future Improvements
+
+- Web Dashboard
+- Real-time Log Monitoring
+- Deep Learning Models
+- LLM-based Error Explanation
+
+## Author
+
+Jagannath Panigrahi

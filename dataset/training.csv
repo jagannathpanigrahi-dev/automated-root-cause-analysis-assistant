@@ -1,0 +1,21 @@
+message,root_cause
+Database Connection Failed,Database Failure
+Database Connection Failed,Database Failure
+Database Connection Failed,Database Failure
+Database Service Stopped,Database Failure
+Network Timeout,Network Issue
+Network Timeout,Network Issue
+Network Timeout,Network Issue
+Permission Denied,Permission Problem
+Permission Denied,Permission Problem
+File Not Found,Missing File
+Authentication Failed,Authentication Problem
+Invalid API Key,API Problem
+SSL Certificate Expired,Security Problem
+Email Service Unreachable,Mail Server Problem
+Server Shutdown Unexpectedly,System Crash
+Low Disk Space,Disk Problem
+High Memory Usage,Memory Problem
+CPU usage is above 80%,CPU Problem
+Too Many Login Attempts,Security Problem
+Disk usage reached 95%,Disk Problem
