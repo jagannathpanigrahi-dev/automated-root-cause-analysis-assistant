@@ -58,7 +58,7 @@ while True:
 
     elif choice == "5":
 
-        subprocess.run(["python", "src/predict.py"])
+        subprocess.run(["python", "predict.py"])
 
     elif choice == "6":
 
