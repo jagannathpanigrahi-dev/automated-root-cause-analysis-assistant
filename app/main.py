@@ -25,3 +25,4 @@ def predict(request: LogRequest):
         root_cause=result["root_cause"],
         confidence=result["confidence"]
     )
+
